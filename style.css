@@ -1,0 +1,38 @@
+body {
+    background-color: #1c1c1c;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.quiz {
+    width: 500px;
+    margin: 50px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #ffd700;
+}
+
+.pergunta {
+    background-color: #2b2b2b;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.certo {
+    background-color: #2ecc71;
+}
+
+.errado {
+    background-color: #e74c3c;
+}

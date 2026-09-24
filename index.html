@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Geek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="quiz">
+        <h1>Quiz Geek</h1>
+
+        <div class="pergunta">
+            <p>1. Qual é o nome verdadeiro do Homem-Aranha?</p>
+
+            <button onclick="responder(this, false)">Bruce Wayne</button>
+            <button onclick="responder(this, true)">Peter Parker</button>
+            <button onclick="responder(this, false)">Clark Kent</button>
+        </div>
+
+        <div class="pergunta">
+            <p>2. Em Star Wars, quem é o pai de Luke Skywalker?</p>
+
+            <button onclick="responder(this, false)">Obi-Wan Kenobi</button>
+            <button onclick="responder(this, false)">Yoda</button>
+            <button onclick="responder(this, true)">Darth Vader</button>
+        </div>
+
+        <div class="pergunta">
+            <p>3. Qual personagem usa o escudo de vibranium?</p>
+
+            <button onclick="responder(this, true)">Capitão América</button>
+            <button onclick="responder(this, false)">Thor</button>
+            <button onclick="responder(this, false)">Hulk</button>
+        </div>
+
+        <h2 id="resultado">Pontuação: 0</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
